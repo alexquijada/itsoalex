@@ -2143,7 +2143,7 @@ table th.bg-pasific {
     margin-top: -10px;
 }
 .navbar-pasific .navbar-brand {
-    color: #fff;
+    color: #323a45;
     font-family: 'Pacifico', cursive;
     font-size: 24px;
 }
@@ -2163,7 +2163,7 @@ table th.bg-pasific {
     background-color: transparent;
 }
 .navbar-pasific .navbar-text {
-    color: #777;
+    color: #323a45;
 }
 .navbar-pasific .navbar-nav > li {
     font-family: 'Montserrat', sans-serif;
@@ -2172,10 +2172,10 @@ table th.bg-pasific {
     letter-spacing: 1px;
 }
 .navbar-pasific .navbar-nav > li > a {
-    color: rgba(255,255,255,.7);
+    color: #323a45;
 }
 .navbar-pasific .navbar-nav > li > a:hover {
-    color: rgba(255,255,255,1);
+    color: #d9534f;
 }
 .navbar-pasific .navbar-nav > li > a:hover,
 .navbar-pasific .navbar-nav > li > a:focus {
@@ -2203,10 +2203,10 @@ table th.bg-pasific {
 }
 
 .top-nav-collapse .navbar-brand {
-    color: #555 !important;
+    color: #323a45 !important;
 }
 .top-nav-collapse-inverse .navbar-brand {
-    color: #fff !important;
+    color: #323a45 !important;
 }
 .navbar-pasific.navbar-center {
     -webkit-border-radius: 3px;
@@ -2292,14 +2292,14 @@ table th.bg-pasific {
     border-bottom: 1px solid #333;
 }
 .navbar-op.top-nav-collapse .navbar-nav li a {
-    color: #555 !important;
+    color: #323a45 !important;
 }
 .navbar-op.top-nav-collapse-inverse .navbar-nav li a {
-    color: #f5f5f5 !important;
+    color: #323a45 !important;
 }
 
 /* navbar multipage */
-@media(min-width:766px) {
+@media (min-width:766px) {
     .navbar-mp .dropdown:hover > .dropdown-menu {
         display: block;
     }
@@ -2307,10 +2307,10 @@ table th.bg-pasific {
         float: right;
     }
     .navbar-mp.top-nav-collapse .navbar-nav li a {
-        color: #555 !important;
+        color: #323a45 !important;
     }
     .navbar-mp.top-nav-collapse-inverse .navbar-nav li a {
-        color: #fff !important;
+        color: #323a45 !important;
     }
     .navbar-mp .navbar-nav > li > a {
         color: #323a45 !important;
@@ -2331,7 +2331,7 @@ table th.bg-pasific {
     }
     .navbar-mp.top-nav-collapse .navbar-brand,
     .navbar-mp .navbar-brand {
-        color: #555 !important;
+        color: #323a45 !important;
     }
     .navbar-mp .dropdown-submenu > ul.dropdown-menu {
         display: block;
@@ -2370,7 +2370,7 @@ table th.bg-pasific {
 }
 .megamenu .dropdown-menu li i {
     margin-right: 10px;
-    color: #fff;
+    color: #323a45;
 }
 .megamenu .dropdown-menu li:first-child {
     padding-top: 10px;
@@ -2412,7 +2412,7 @@ table th.bg-pasific {
 }
 .megamenu .dropdown-menu .withoutdesc ul li:hover,
 .megamenu .dropdown-menu .withoutdesc ul li:focus{
-	color:#262626;
+	color:#323a45;
 	text-decoration:none;
 	background-color:#181818 !important
 }
