@@ -4472,13 +4472,8 @@ ul.pagination.pagination-pasific li.active a {
 32. Mobile
 -------------------------------------------------------- */
 
-@media screen 
-  and (device-width: 320px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 2) 
-{
-    
-    .mobile {
-       display:none;
-    }
+@media (max-width:629px) {
+  img#petvision, #issuu, #ukimage {
+    display: none;
+  }
 }
