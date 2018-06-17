@@ -37,6 +37,7 @@ Envato Profile: http://themeforest.net/user/myboodesign
 29. SOCIAL MEDIA
 30. FOOTER
 31. PARALLAX
+32. Mobile
 
 /*  ----------------------------------------------------
 1. IMPORT GOOGLE FONTS
@@ -4471,8 +4472,13 @@ ul.pagination.pagination-pasific li.active a {
 32. Mobile
 -------------------------------------------------------- */
 
-@media (max-width: 600px) {
-    .mobile  {
-        display:none;
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+{
+    
+    .mobile {
+       display:none;
     }
 }
