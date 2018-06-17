@@ -4466,3 +4466,13 @@ ul.pagination.pagination-pasific li.active a {
     max-width: 1920px;
     background: transparent;
 }
+
+/*  --------------------------------------------------------
+32. Mobile
+-------------------------------------------------------- */
+
+@media (max-width: 600px) {
+    .mobile  {
+        display:none;
+    }
+}
