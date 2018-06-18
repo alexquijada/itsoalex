@@ -105,7 +105,7 @@ p {
     margin: 0 0 25px 0;
     font-size: 13px;
     line-height: 25px;
-    color: #747474;
+    color: #323a45;;
 }
 p strong { font-weight: 600; }
 .lead {
@@ -2265,6 +2265,7 @@ table th.bg-pasific {
     .navbar-op .navbar-nav>li>a {
         padding-top: 5px;
         padding-bottom: 5px;
+		color: #323a45;
     }
     .navbar-op .navbar-collapse {
         background: transparent;
@@ -2460,7 +2461,6 @@ table th.bg-pasific {
 .megamenu .dropdown-menu.has-submenu.pull-left {   
     position: absolute;
     text-align: right;
-    position: absolute;
     right: 30px;
 }
 @media (min-width: 780px) {
@@ -2475,6 +2475,7 @@ table th.bg-pasific {
         background-color: #fff !important;
     }
 }
+
 .megamenu p {
     font-size: 13px;
 	color:#747474;
@@ -2594,7 +2595,6 @@ table th.bg-pasific {
         background-size: cover;
         -o-background-size: cover;
         height: 100%;
-        background-size: cover;
     }  
     .intro .intro-body .brand-heading {
         font-size: 250%;
@@ -2612,7 +2612,6 @@ table th.bg-pasific {
         background-size: cover;
         -o-background-size: cover;
         height: 100%;
-        background-size: cover;
     }    
 }
 /* Particles */
