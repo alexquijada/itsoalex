@@ -47,7 +47,7 @@ $(document).ready(function() {
             $(".navbar-sticky").css('z-index','100');
             $(".navbar-sticky").addClass('bg-dark2');
             $(".navbar-sticky").addClass("top-nav-collapse");
-        };
+        }
     });
     
     

@@ -2190,7 +2190,7 @@ table th.bg-pasific {
 .navbar-pasific .navbar-nav > .disabled > a,
 .navbar-pasific .navbar-nav > .disabled > a:hover,
 .navbar-pasific .navbar-nav > .disabled > a:focus {
-    color: #ccc;
+    color: #323a45;
     background-color: transparent;
 }
 .top-nav-collapse {
@@ -2233,7 +2233,7 @@ table th.bg-pasific {
         float: none;
     }
     .navbar-op .navbar-brand {
-        color: #333;
+        color: #323a45;
     }
     .navbar-op .navbar-left,.navbar-right {
         float: none !important;
@@ -2349,7 +2349,7 @@ table th.bg-pasific {
         margin-left: 0 !important;
     }    
     .navbar-mp.navbar-center {
-        border: 1px solid #323a45;
+        border: 1px solid #fff;
         -webkit-border-radius: 4px;
            -moz-border-radius: 4px;
                 border-radius: 4px;
@@ -2358,7 +2358,7 @@ table th.bg-pasific {
 
 /* megamenu */
 .megamenu .dropdown .dropdown-menu li a {
-	color: #999 !important;
+	color: #323a45 !important;
 }
 
 .megamenu .dropdown-menu li a{
@@ -2408,7 +2408,7 @@ table th.bg-pasific {
     font-size: 13px;
     font-weight: 600;
     letter-spacing: 0 !important;
-    color: #999 !important;
+    color: #323a45 !important;
 }
 .megamenu .dropdown-menu .withoutdesc ul li:hover,
 .megamenu .dropdown-menu .withoutdesc ul li:focus{
@@ -4473,7 +4473,7 @@ ul.pagination.pagination-pasific li.active a {
 -------------------------------------------------------- */
 
 @media (max-width:629px) {
-  img #petvision, #issuu, #ukimage {
+  img#petvision, #issuu, #ukimage {
     display: none;
   }
 }
