@@ -12370,12 +12370,12 @@ footer .copyright-social ul li:last-child {
 .footer .footer-links .footer-block.col-menu ul li {
   font-size: 14px;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   overflow: hidden;
 }
 
 .footer .footer-links .footer-block.col-menu ul li:last-of-type {
-  margin-bottom: 0;
+  margin-bottom: 20;
 }
 
 .footer .footer-links .footer-block.col-menu ul li a {
