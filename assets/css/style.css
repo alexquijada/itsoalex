@@ -1485,7 +1485,7 @@ a {
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:focus {
@@ -3806,15 +3806,15 @@ body.nav-active .header-top .header-container .menu-icon:hover .text-menu .text-
 
 .nav:after, .nav-content:after {
   background: #212121;
-  -webkit-transition-delay: 0.1s;
-  -o-transition-delay: 0.1s;
-  transition-delay: 0.1s;
+  -webkit-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s;
 }
 
 .nav:before, .nav-content:before {
-  -webkit-transition-delay: 0.8s;
-  -o-transition-delay: 0.8s;
-  transition-delay: 0.8s;
+  -webkit-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s;
 }
 
 .nav .inner, .nav-content .inner {
@@ -3826,9 +3826,9 @@ body.nav-active .header-top .header-container .menu-icon:hover .text-menu .text-
   width: 100vw;
   margin: auto;
   opacity: 0;
-  -webkit-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  transition: all 0.2s ease;
+  -webkit-transition: all 0s ease;
+  -o-transition: all 0s ease;
+  transition: all 0s ease;
   height: 100vh;
 }
 
@@ -3884,7 +3884,7 @@ body.nav-active .header-top .header-container .menu-icon:hover .text-menu .text-
 .nav__list-item {
   position: relative;
   display: block;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 40px;
   letter-spacing: 3px;
   font-weight: bold;
@@ -3901,9 +3901,9 @@ body.nav-active .header-top .header-container .menu-icon:hover .text-menu .text-
   position: relative;
   display: block;
   padding-left: 20%;
-  -webkit-transition-delay: 0.8s;
-  -o-transition-delay: 0.8s;
-  transition-delay: 0.8s;
+  -webkit-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
   -webkit-transform: translateX(-10px) scale(0.8) rotate(1deg);
   -ms-transform: translateX(-10px) scale(0.8) rotate(1deg);
   transform: translateX(-10px) scale(0.8) rotate(1deg);
@@ -3911,15 +3911,12 @@ body.nav-active .header-top .header-container .menu-icon:hover .text-menu .text-
   -webkit-transform-origin: left;
   -ms-transform-origin: left;
   transform-origin: left;
-  -webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
-  transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
-  -o-transition: opacity 0.5s ease, transform 0.5s ease;
-  transition: opacity 0.5s ease, transform 0.5s ease;
-  transition: opacity 0.5s ease, transform 0.5s ease, -webkit-transform 0.5s ease;
+
 }
 
 .nav__list-item a:hover {
   color: #fff;
+  text-decoration: underline;
   -webkit-transition: color 0.5s ease-in-out 0s;
   -o-transition: color 0.5s ease-in-out 0s;
   transition: color 0.5s ease-in-out 0s;
@@ -3932,6 +3929,12 @@ body.nav-active .header-top .header-container .menu-icon:hover .text-menu .text-
 
 .nav__list-item ul li {
   font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.nav__list-item ul li:hover {
+  font-size: 18px;
+  text-decoration: underline;
   font-weight: 600;
   margin-bottom: 10px;
 }
