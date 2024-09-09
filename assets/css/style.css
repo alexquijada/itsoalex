@@ -4714,12 +4714,12 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   width: 50%;
   position: relative;
   display: block;
-  text-align: left;
-  font-size: 42px;
+  text-align: center;
+  font-size: 35px;
   font-weight: 800;
   line-height: 1.2;
   letter-spacing: 0.01em;
-  color: transparent;
+  color: solid;
   -webkit-text-stroke: 1px #fff;
   text-transform: uppercase;
   -webkit-transition: color 0.5s cubic-bezier(0.77, 0, 0.175, 1);
@@ -10872,7 +10872,7 @@ body.dsn-show-work .dsn-all-work .list-main:nth-of-type(20) .work-item {
 }
 
 .root-work .projects-list .item:nth-child(2) {
-  margin-top: 160px;
+  margin-top: 0px;
 }
 
 @media only screen and (max-width: 767px) {
