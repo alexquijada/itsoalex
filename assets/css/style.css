@@ -8357,8 +8357,8 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 }
 
 @media only screen and (max-width: 400px) {
-  .our-news .slick-slider .slick-list, .our-team .slick-slider .slick-list, [data-dsn-col="2"] .slick-slider .slick-list {
-    padding: 0;
+  .our-news .slick-slider .slick-list, .our-team .slick-slider .slick-list, [data-dsn-col="12"] .slick-slider .slick-list {
+    padding: 50;
   }
 }
 
